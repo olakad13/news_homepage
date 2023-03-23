@@ -75,6 +75,7 @@ a {
     background: var(--Off-white);
     transform: translateX(100vw);
     width: 70%;
+    height: 100vw;
     right: 0;
     top: 0;
     bottom: 0;
@@ -239,7 +240,8 @@ footer {
         background: initial;
         padding: initial;
         width: initial;
-        transform: translateX(0)
+        transform: translateX(0);
+        height: initial;
     }
     a {
         color: inherit;

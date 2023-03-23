@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-news-homepage-using-css-grid-sassscss-cPbEWcZ85C#comment-641c2b7b5174143fdb39c22d)
 - Live Site URL: [Add live site URL here](https://olakad13.github.io/news_homepage/)
 
 ## My process

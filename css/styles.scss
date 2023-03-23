@@ -179,8 +179,8 @@ main .container {
 }
 
 footer {
-    margin-top: 4em;
-    margin-bottom: 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .attribution { 
     font-size: 11px; 
@@ -250,6 +250,8 @@ footer {
         display: none;
     }
 }
+
+/* animations*/
 
 @keyframes slidein {
     from {transform: translateX(100vw)}

@@ -33,13 +33,13 @@ window.addEventListener("resize", () => {
 
         navBar.style.transform = "translateX(0)";
 
-    } else if (screen.width , 900) {
+    } else if (screen.width < 900) {
 
         navBar.style.transform = "translateX(100vw)";
 
     } else if (window.innerWidth >= 900) {
         navBar.style.transform = "translateX(0)";
-    } else if (window.innerWidth , 900) {
+    } else if (window.innerWidth < 900) {
         navBar.style.transform = "translateX(100vw)";
     }
 });

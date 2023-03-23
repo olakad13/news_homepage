@@ -225,7 +225,7 @@ footer {
 @media (min-width: 900px) {
 
     .header {
-        padding-block: 3em;
+        padding-block: 5em;
     }
     main .container {
         display: grid;
@@ -267,6 +267,9 @@ footer {
     }
     .close-btn {
         display: none;
+    }
+    .hero-img {
+        height: 20rem;
     }
 }
 

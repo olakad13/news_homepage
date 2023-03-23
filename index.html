@@ -4,88 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>News homepage</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo-container">
-            <img src="images/logo.svg" alt="" class="logo">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.svg" alt="" class="logo">
+            </div>
+            <img id="menu" class="menu" src="images/icon-menu.svg" alt="">
+            <nav id="nav-bar" class="nav-bar">
+                <a href="#" class="nav-links">Home</a>
+                <a href="#" class="nav-links">New</a>
+                <a href="#" class="nav-links">Popular</a>
+                <a href="#" class="nav-links">Trending</a>
+                <a href="#" class="nav-links">Categories</a>
+                <img id="close-btn" class="close-btn" src="images/icon-menu-close.svg" alt="">
+            </nav>
         </div>
-        <nav class="nav-bar">
-            <a href="#" class="nav-links">Home</a>
-            <a href="#" class="nav-links">New</a>
-            <a href="#" class="nav-links">Popular</a>
-            <a href="#" class="nav-links">Trending</a>
-            <a href="#" class="nav-links">Categories</a>
-        </nav>
     </header>
 
     <main>
-        <section class="lhs-main-section">
-            <div class="hero-img">
-            </div>
-            <div class="lhs-main-section-text">
-                <h2>The Bright Future of Web 3.0?</h2>
-                <div>
-                    <p>
-                        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
-                    </p>
-                    <a href="">READ MORE</a>
+        <div class="container">
+            <section class="hero-img-and-text">
+                <div class="hero-img">
+
                 </div>
-            </div>
-        </section>
-        <section class="rhs-main-section">
-            <h2 class="rhs-header">NEW</h2>
-            <div class="news-container">
-                <h4>Hydrogen VS Electric Cars</h4>
-                <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
-            </div>
-            <div class="news-container">
-                <h4>The Downsides of AI Artistry</h4>
-                <p>What are the possible adverse effects of on-demand AI image generation?</p>
-            </div>
-            <div class="news-container no-border">
-                <h4> Is VC Funding Drying Up?</h4>
-                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-            </div>
-        </section>
+                <div class="hero-text-container">
+                    <h1 class="hero-header">The Bright Future of Web 3.0?</h1>
+                    <div>
+                        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="side-bar">
+                <h2>New</h2>
+                <div class="side-bar-item">
+                    <h3>Hydrogen VS Electric Cars</h3>
+                    <p>Will hydrogen-fueled cars ever catch up to EVs? </p>
+                </div>
+                <div class="side-bar-item">
+                    <h3>The Downsides of AI Artistry</h3>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <div class="side-bar-item no-border">
+                    <h3> Is VC Funding Drying Up? </h3>
+                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </section>
+            <section class="pc-and-gaming-news">
+                <div class="pc-and-gaming-news-item">
+                    <img src="images/image-retro-pcs.jpg" alt="">
+                    <div>
+                        <p class="number">01</p>
+                        <h4>Reviving Retro PCs</h4>
+                        <p> What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                <div class="pc-and-gaming-news-item">
+                    <img src="images/image-top-laptops.jpg" alt="">
+                    <div>
+                        <p class="number">02</p>
+                        <h4>Top 10 Laptops of 2022</h4>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+                <div class="pc-and-gaming-news-item">
+                    <img src="images/image-gaming-growth.jpg" alt="">
+                    <div>
+                        <p class="number">03</p>
+                        <h4>The Growth of Gaming</h4>
+                        <p> How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-    <section class="article-section">
-        <div class="article-container">
-            <div class="article-img-container">
-                <img src="images/image-retro-pcs.jpg" alt="" class="article-img">
-            </div>
-            <div class="article-text-container">
-                <h2 class="article-no">01</h2>
-                <h3> Reviving Retro PCs </h3>
-                <p>What happens when old PCs are given modern upgrades?</p>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Kayode Olatunji</a>.
             </div>
         </div>
-        <div class="article-container">
-            <div class="article-img-container">
-                <img src="images/image-top-laptops.jpg" alt="" class="article-img">
-            </div>
-            <div class="article-text-container">
-                <h2 class="article-no">02</h2>
-                <h3>Top 10 Laptops of 2022</h3>
-                <p>Our best picks for various needs and budgets.</p>
-            </div>
-        </div>
-        <div class="article-container">
-            <div class="article-img-container">
-                <img src="images/image-gaming-growth.jpg" alt="" class="article-img">
-            </div>
-            <div class="article-text-container">
-                <h2 class="article-no">03</h2>
-                <h3>The Growth of Gaming</h3>
-                <p> How the pandemic has sparked fresh opportunities. </p>
-            </div>
-        </div>
-    </section>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.linkedin.com/in/kayode-olatunji-ab244917b/">Kayode Olatunji</a>.
-      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

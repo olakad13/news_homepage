@@ -46,10 +46,18 @@ h3 {
   font-size: 1.2rem;
   color: var(--Off-white);
 }
+h3:hover, h3:focus {
+  color: var(--soft-orange);
+  cursor: pointer;
+}
 
 h4 {
   font-size: 1.2rem;
   font-weight: 700;
+}
+h4:hover, h4:focus {
+  color: var(--Soft-red);
+  cursor: pointer;
 }
 
 a {
@@ -81,6 +89,9 @@ a {
 }
 .nav-bar a {
   font-size: 1.1rem;
+}
+.nav-bar a:hover, .nav-bar a:focus {
+  color: var(--Soft-red);
 }
 
 .close-btn {
@@ -131,6 +142,10 @@ main .container {
   font-weight: 400;
   display: block;
   margin-top: 2em;
+  transition: 0.5s all;
+}
+.hero-text-container a:hover, .hero-text-container a:focus {
+  background: var(--Very-dark-blue);
 }
 
 .side-bar {

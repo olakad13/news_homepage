@@ -49,11 +49,19 @@ h2 {
 h3 {
     font-size: 1.2rem;
     color: var(--Off-white);
+    &:hover, &:focus {
+        color: var(--soft-orange);
+        cursor: pointer;
+    }
 }
 
 h4 {
     font-size: 1.2rem;
     font-weight: 700;
+    &:hover, &:focus {
+        color: var(--Soft-red);
+        cursor: pointer;
+    }
 }
 a {
     text-decoration: none;
@@ -85,7 +93,11 @@ a {
     align-items: flex-start;
     a {
         font-size: 1.1rem;
+        &:hover,&:focus {
+            color: var(--Soft-red);
+        }
     }
+    
 }
 .close-btn {
     position: absolute;
@@ -133,6 +145,10 @@ main .container {
         font-weight: 400;
         display: block;
         margin-top: 2em;
+        transition: .5s all;
+        &:hover, &:focus {
+            background: var(--Very-dark-blue);
+        }
     }
 }
 

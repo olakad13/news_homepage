@@ -15,17 +15,27 @@ window.addEventListener("click",(e) => {
         }
 
     } else if (e.target.id === "close-btn") {
+
         navBar.classList.add("slide-out");
         navBar.classList.remove("slide-in");
+        
     }
 });
 
 //Event lister that listens to changes in screen size and displays the nav bar when it is greater 
 // than 900px
 window.addEventListener("resize", () => {
+
+    navBar.classList.remove("slide-in");
+    navBar.classList.remove("slide-out");
+
     if (screen.width >= 900) {
+
         navBar.style.transform = "translateX(0)";
+
     } else {
+
         navBar.style.transform = "translateX(100vw)";
+
     }
 });

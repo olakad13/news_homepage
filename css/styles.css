@@ -223,7 +223,7 @@ footer {
 }
 @media (min-width: 900px) {
   .header {
-    padding-block: 5em;
+    padding-block: 4.5em;
   }
   main .container {
     display: grid;
